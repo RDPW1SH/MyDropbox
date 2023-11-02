@@ -126,7 +126,7 @@ h3 {
 /*Main*/
 main {
     width: 100%;
-    height: 85vh;
+    height: 88vh;
     display: flex;
 }
 .text_main {
@@ -140,23 +140,29 @@ main {
     background-color: #1e1919;
 }
 .main_placeholder_text {
-    line-height: 1.4;
+    line-height: 1.2;
     height: -webkit-fill-available;
-    padding: 7% 15% 7% 8%;
+    padding: 2% 15% 7% 8%;
+}
+.main_text h1 {
+    font-size: 45px;
+    margin-bottom: 0;
 }
 .small_text {
     line-height: 1.5;
+    font-size: 13px;
 }
 .main_button {
-
+    padding: 10px 0px;
 }
 .main_link a {
     color: white;
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
 }
 .btn-main {
     width: 200px;
+    background-color: #3A84FF;
     padding: 34px 38px 34px 20px;
     display: flex;
     justify-content: initial;
