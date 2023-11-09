@@ -163,11 +163,6 @@ main {
     height: 100%;
     background-color: #2b2929;
 }
-.gif_main {
-    width: 65vw;
-    height: 100%;
-    background-color: #1e1919;
-}
 .main_placeholder_text {
     line-height: 1.2;
     height: -webkit-fill-available;
@@ -197,7 +192,39 @@ main {
     justify-content: initial;
     align-items: center;
 }
+.gif_main {
+    width: 65vw;
+    height: 100%;
+    background-color: #1e1919;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.gif_main video {
+    width: 90%;
+}
+/**/
 
+
+/*Dropdown-notifications*/
+.dropbox-notifications {
+    width: 100%;
+    display: inline-block;
+    height: 200px;
+    background-color: #1e1919;
+}
+.dropbox-notification-title {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 20% 0% 5%;
+    align-items: center;
+    font-size: 22px;
+}
+.dropbox-notification-title button {
+    width: 200px;
+    height: 60px;
+}
 /**/
 
 .footer_dropbox {
